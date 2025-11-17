@@ -59,6 +59,7 @@ html {
   display: flex;
   width: fit-content;
   cursor: pointer;
+  gap: 5px;
 }
 
 .search-form__label:hover .search-form__label-text {
