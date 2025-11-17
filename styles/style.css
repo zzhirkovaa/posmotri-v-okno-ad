@@ -135,15 +135,7 @@ html {
   outline: none;
 }
 
-/*.search-form__textfield:focus-visible
-{
-  outline: 1px solid white;
-}
 
-.search-form__textfield:has(:focus-visible)
-{
-
-}*/
 
 .result {
   grid-area: result;
