@@ -135,7 +135,15 @@ html {
   outline: none;
 }
 
+/*.search-form__textfield:focus-visible
+{
+  outline: 1px solid white;
+}
 
+.search-form__textfield:has(:focus-visible)
+{
+
+}*/
 
 .result {
   grid-area: result;
@@ -232,8 +240,9 @@ html {
   line-height: 16.2px;
   font-family: "Fira Sans Condensed";
   font-style: normal;
+  
   display: -webkit-box;
-  /*-webkit-line-clamp: 4;*/
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-weight: 400;
